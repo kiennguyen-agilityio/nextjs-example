@@ -19,5 +19,5 @@ export const authConfig = {
       return true;
     },
   },
-  providers: [Credentials({})],
+  providers: [],
 } satisfies NextAuthConfig;
